@@ -9,9 +9,13 @@
   ],
   "license": "ISC",
   "author": "Tejas Kharade",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "nodeman": "^1.1.2"
   }
 }
