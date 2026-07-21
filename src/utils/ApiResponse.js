@@ -1,7 +1,8 @@
 class ApiResponse{
     constructor(statusCode, data, message = "Success"){
         this.StatusCode=statusCode
-        this.data=datathis.message=message
+        this.data=data,
+        this.message=message
         this.success=statusCode < 400
     }
 }
